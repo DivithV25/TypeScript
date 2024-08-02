@@ -14,7 +14,9 @@ return y.toUpperCase();
 function addtwo(num1:number,num2:number):number{
     return num1+num2;
 }
+
 //never specifies that the returned value is never read
+
 let handleerr=(errmsg):never=>{
 
     throw new Error(errmsg)

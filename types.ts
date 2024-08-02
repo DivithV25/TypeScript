@@ -22,3 +22,8 @@ let handleerr=(errmsg):never=>{
     throw new Error(errmsg)
 
 }
+
+//objects
+function create():{name:string,price:number}{
+    return {name:"reactjs" , price:399};
+}

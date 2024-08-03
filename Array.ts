@@ -10,3 +10,5 @@ type User1 = {
 
 const allusers:User1[]=[];
 
+//matrix
+const MLmodels:number[][]=[[2,4,6],[3,6,9]]

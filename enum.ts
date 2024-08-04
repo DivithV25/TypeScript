@@ -4,5 +4,5 @@ enum seatchoice {
   WINDOW
 
 }
-
-const seat= seatchoice.AISLE
+//ENUM for selecting a option
+const seat= seatchoice.AISLE  

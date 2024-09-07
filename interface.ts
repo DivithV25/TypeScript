@@ -7,8 +7,16 @@ interface User {
     getcoupon(couponname : string ,value : number ):number  
 }
 
+interface User {
+    githubtoken : string 
+}
+//inherits all the properties of the user to the admin
+interface Admin extends User{
+    role : "Admin" | "Boss" | "learner"
+} 
 const divith: User = {dbId : 22 , email: "abc@gmail.com",
     userId : 2211,
+    githubtoken : "github",
     starttrial : ()=>{
         return "trial started"
     },

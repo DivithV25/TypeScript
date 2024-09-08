@@ -15,3 +15,5 @@ function getFood(pet : Fish | bird){
         return "bird food"
     }
 }
+
+//' instanceof ' operator can be used to check if it is a object ("new is used or not") 
